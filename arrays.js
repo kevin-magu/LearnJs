@@ -47,3 +47,15 @@ console.log(person)
 //accessing the length of an object
 console.log(Object.keys(person).length)
 
+//NESTED OBJECTS AND ARRAYS
+let student = {
+    name: "kevin",
+    age:21,
+    subjects: ["Math", "Computer", "Physics"],
+    address: {
+        city: "New York",
+        country: "USA"
+    }
+};
+console.log(student.subjects.join(','))
+console.log(student.address.city)
